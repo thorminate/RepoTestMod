@@ -1,0 +1,7 @@
+﻿<Project>
+    <PropertyGroup>
+        <GameDirectory>C:\Program Files (x86)\Steam\steamapps\common\REPO</GameDirectory>
+        <BepInExDirectory>$(GameDirectory)\BepInEx</BepInExDirectory>
+        <StartArguments>--doorstop-enable true --doorstop-target "$(BepInExDirectory)\core\BepInEx.Preloader.dll" --gale-profile "$(GaleProfileName)"</StartArguments>
+    </PropertyGroup>
+</Project>
